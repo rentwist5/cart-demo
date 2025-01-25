@@ -20,13 +20,13 @@ const Index = () => {
 
 				<p>	As this was put together over a weekend, many of the functions necessary for a full-fledged e-commerce system are out-of-scope.</p>
 
-				<p>As writing an entire back-end system as well as this front-end over a weekend would be an exercise in futility, the web site <a href="https://dummyjson.com/" target="_top">Dummy JSON</a> was used to simulate a JSON REST backend.</p>
+				<p>As writing an entire back-end system as well as this front-end over a weekend would be an exercise in futility, the web site <a href="https://dummyjson.com/" target="_blank">Dummy JSON</a> was used to simulate a JSON REST backend.</p>
 
 				<p>The original company name and any identifying details have been redacted. The site is hosted on an entirely separate instance and provider, with no connections—contractual, legal, or otherwise—to the original assignment.</p>
 
 				<h3>Development Technologies</h3>
 
-				<p>This demo is written in TypeScript with source code available on GitHub.</p>
+				<p>This demo is written in TypeScript with source code available on <a href="https://github.com/rentwist5/cart-demo" target="_blank">GitHub</a>.</p>
 
 				<p>It uses the following technologies:</p>
 
