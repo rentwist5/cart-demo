@@ -1,0 +1,44 @@
+{
+	"arrowParens": "always",
+	"bracketSameLine": true,
+	"bracketSpacing": true,
+	"embeddedLanguageFormatting": "auto",
+	"endOfLine": "lf",
+	"jsxSingleQuote": false,
+	"overrides": [
+		{
+			"files": "*.component.html",
+			"options": {
+				"parser": "angular",
+				"tabWidth": 4
+			}
+		},
+		{
+			"files": "*.scss",
+			"options": {
+				"parser": "scss",
+				"tabWidth": 2
+			}
+		},
+		{
+			"files": [
+				"*.json",
+				".prettierrc"
+			],
+			"options": {
+				"parser": "json",
+				"tabWidth": 4
+			}
+		}
+	],
+	"printWidth": 100000000,
+	"proseWrap": "preserve",
+	"quoteProps": "consistent",
+	"requirePragma": false,
+	"semi": true,
+	"singleAttributePerLine": true,
+	"singleQuote": true,
+	"tabWidth": 2,
+	"trailingComma": "none",
+	"useTabs": true
+}

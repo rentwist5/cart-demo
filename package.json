@@ -1,0 +1,35 @@
+{
+	"dependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"bootstrap": "^5.3.3",
+		"react": "^18.3.1",
+		"react-bootstrap": "^2.10.2",
+		"react-dom": "^18.3.1",
+		"react-number-format": "^5.4.0",
+		"react-router-dom": "^6.23.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.18",
+		"@types/react-dom": "^18.3.5",
+		"@typescript-eslint/eslint-plugin": "^7.13.0",
+		"@typescript-eslint/parser": "^7.18.0",
+		"@vitejs/plugin-react": "^4.3.4",
+		"eslint": "^8.57.1",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"eslint-plugin-react-refresh": "^0.4.18",
+		"sass": "^1.83.4",
+		"typescript": "^5.7.3",
+		"vite": "^6.0.11"
+	},
+	"name": "cart-demo",
+	"private": true,
+	"scripts": {
+		"build": "tsc && vite build",
+		"dev": "vite",
+		"dev2": "vite --host cart-demo.test",
+		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"type": "module",
+	"version": "0.0.1"
+}
