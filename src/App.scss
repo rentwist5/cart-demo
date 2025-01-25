@@ -1,0 +1,203 @@
+$mainColor: #00152f;
+
+// #root {
+// 	max-width: 1280px;
+// 	margin: 0 auto;
+// 	padding: 2rem;
+// 	text-align: center;
+// }
+
+a {
+	text-decoration: none;
+	color: #0000ba;
+
+	&.active {
+		color: red;
+	}
+}
+
+.alert {
+	border-radius: 0;
+}
+
+body {
+	font-size: 12pt;
+}
+
+.button-link {
+	padding: 0 !important;
+}
+
+.card-text {
+	span {
+		font-size: 0.8em;
+		font-weight: bold;
+	}
+}
+
+code {
+	display: block;
+	margin: 1em 0.5em;
+}
+
+.debug {
+	color: rgb(165, 0, 165);
+	font-style: normal;
+
+	&.box {
+		border: 1px dashed rgb(165, 0, 165);
+		margin-bottom: 0.5em;
+		padding: 0.5em;
+	}
+
+	&.notes {
+		font-size: 0.8em;
+	}
+}
+
+.dropdown-menu {
+	max-height: 16rem;
+	overflow-y: auto;
+
+	.dropdown-header {
+		padding: 0.5em 1.25em;
+	}
+
+	.dropdown-item {
+		padding: 0.5rem 1rem;
+		text-align: center;
+
+		&:hover,
+		&:focus {
+			background-color: blue;
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+
+.error-title {
+	font-size: 5em;
+}
+
+footer {
+	background-color: $mainColor;
+	color: #fff;
+	padding: 2em 0;
+
+	a {
+		color: rgb(181, 181, 247);
+	}
+
+	h3 {
+		color: #a8a8f4;
+		text-transform: uppercase;
+	}
+
+	.footer-links {
+		a {
+			display: block;
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+.form-notes {
+	font-size: 0.75em;
+	padding: 0.125em 0 0 0.5em;
+}
+
+.form-required {
+	label {
+		&:after {
+			color: var(--bs-danger);
+			content: '*';
+			font-size: 0.75em;
+			font-weight: bold;
+			padding-left: 0.125em;
+			vertical-align: super;
+		}
+	}
+}
+
+h1 {
+	color: rgb(0, 0, 167);
+	font-size: 1.8em;
+}
+
+h2 {
+	color: rgb(0, 92, 172);
+	font-size: 1.5em;
+}
+
+h3 {
+	color: rgb(65, 102, 134);
+	font-size: 1.25em;
+}
+
+// .highlight {
+// 	background-color: yellow;
+// 	color: black;
+// }
+
+.hover {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.instructions {
+	color: rgb(25, 5, 5);
+	font-style: italic;
+	font-weight: 400;
+}
+
+.loading-div {
+	text-align: center;
+	font-size: 2em;
+}
+
+.logo {
+	height: 1.75em;
+	padding: 0 0 0 0;
+	transition: filter 300ms;
+	will-change: filter;
+}
+
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+	// }
+
+	// .logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+p {
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.product-description {
+	font-size: 0.9em;
+	padding: 0.5em 0;
+}
+
+.product-image {
+	max-height: 20em;
+}
+
+.product-price {
+	font-weight: bold;
+}
+
+.product-sku {
+	color: $mainColor;
+}
+
+.required {
+	color: var(--bs-danger);
+	font-size: 0.75em;
+	font-weight: bold;
+	vertical-align: super;
+}
